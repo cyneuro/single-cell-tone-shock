@@ -1,3 +1,7 @@
+# compiled mod files folders
+x86_64/
+arm64/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
