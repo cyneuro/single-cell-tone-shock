@@ -203,7 +203,7 @@ DERIVATIVE state{
     A_NMDA' = -A_NMDA/tau_r_NMDA
     B_NMDA' = -B_NMDA/tau_d_NMDA
     capoolcon' = -fCa * Afactor * ICa + (Cainf - capoolcon) / tauCa
-    W' = 1e-12 * limitW * eta(capoolcon) * (lambda1 * omega(capoolcon, threshold1, threshold2) - lambda2 * W) * LTP_on
+    W' = limitW * eta(capoolcon) * (lambda1 * omega(capoolcon, threshold1, threshold2) - lambda2 * W) * LTP_on
 }
 
 
